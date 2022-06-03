@@ -9,10 +9,7 @@ const apagar = () => {resultado.innerHTML = ''}
 function back(){
     
     let recebe = document.getElementById('resultado').innerHTML
-    resultado.innerHTML = recebe.substring(0, recebe.length - 1)
-    
-    
-    
+    resultado.innerHTML = recebe.substring(0, recebe.length - 1)    
 }
 
 function valorf(){
